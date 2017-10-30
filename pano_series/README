@@ -1,0 +1,6 @@
+1 use testarea to get a rawpano positon and yaw, all raw data in raw
+2 use unique to get a unique line from rawpano.csv as pano_pose.csv
+3 use pano_pose as a reference in my google map
+4. delete avenue with vegetation
+5. Final panopose as posepano.csv
+

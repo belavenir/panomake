@@ -1,0 +1,14 @@
+
+#SET(OPENCV_DIR "/usr/share/OpenCV")
+
+#set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake-modules)
+
+FIND_PACKAGE(OpenCV REQUIRED)
+
+
+
+ADD_EXECUTABLE( pano panoProcessing.cpp )
+TARGET_LINK_LIBRARIES( pano
+	${OpenCV_LIBS} )
+
+

@@ -1,0 +1,2 @@
+/home/fish/Desktop/pcl_viusalizer/build/src/CMakeFiles/generate_pointcloud.dir
+/home/fish/Desktop/pcl_viusalizer/build/src/CMakeFiles/main.dir
